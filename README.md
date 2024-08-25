@@ -6,5 +6,5 @@ However, I must emphasize the importance of exercising caution, as any actions y
 Lastly you can find the videos in my youtube channel that are related with **ALL** tweaks of this folder!
 >
 
-> [!TIP]
+> [!IMPORTANT]  
 > It would be advisable to apply the settings on a dual boot or a second machine for 100% safety.
