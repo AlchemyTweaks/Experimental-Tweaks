@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\kernel]
+"PriorityControl"=dword:00000032
+"DisableOverlappedExecution"=dword:00000000
+"TimeIncrement"=dword:0000000f
+"QuantumLength"=dword:00000014
