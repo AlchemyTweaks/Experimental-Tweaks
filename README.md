@@ -3,4 +3,4 @@
 >
 
 > [!TIP]
-> "It would be advisable to apply the settings on a dual boot or a second machine for 100% safety.
+> It would be advisable to apply the settings on a dual boot or a second machine for 100% safety.
