@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\GraphicsDrivers]
+"SchedulingDelay"=-
+"DisableOverlays"=-
+"SupportRuntimePowerManagement"=-
+"RuntimePowerManagement"=-
+"Protection"=-
+"ProtectionLevel"=-
+"OPMSetProtectionLevel"=-
+"NumberOfIdleStates"=-
+"EnableRuntimePowerManagement"=-
+"DriverProtection"=-
+"PoFxStartDevicePowerManagement"=-
+"PoFxPowerControl"=-
+"DxgkWaitForIdle"=-
