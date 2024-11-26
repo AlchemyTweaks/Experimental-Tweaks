@@ -1,0 +1,87 @@
+Windows Registry Editor Version 5.00
+
+; Resource Manager for CPU
+:: https://github.com/ionuttbara/fidelity/blob/main/fidelityreg_reg11.reg
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ResourcePolicyStore\ResourceSets\Policies\CPU\HardCap0]
+"CapPercentage"=dword:00000000
+"SchedulingType"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ResourcePolicyStore\ResourceSets\Policies\CPU\Paused]
+"CapPercentage"=dword:00000000
+"SchedulingType"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ResourcePolicyStore\ResourceSets\Policies\CPU\SoftCapFull]
+"CapPercentage"=dword:00000000
+"SchedulingType"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ResourcePolicyStore\ResourceSets\Policies\CPU\SoftCapFullAboveNormal]
+"CapPercentage"=dword:00000000
+"PriorityClass"=dword:00000020
+"SchedulingType"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ResourcePolicyStore\ResourceSets\Policies\CPU\SoftCapLow]
+"CapPercentage"=dword:00000000
+"SchedulingType"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ResourcePolicyStore\ResourceSets\Policies\CPU\SoftCapLowBackgroundBegin]
+"CapPercentage"=dword:00000000
+"PriorityClass"=dword:00000020
+"SchedulingType"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ResourcePolicyStore\ResourceSets\Policies\CPU\UnmanagedAboveNormal]
+"CapPercentage"=dword:00000000
+"PriorityClass"=dword:00000020
+"SchedulingType"=dword:00000000
+
+
+:: https://learn.microsoft.com/en-us/previous-versions/troubleshoot/windows-server/virtual-machines-slow-startup-shutdown
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Processor]
+"Capabilities"=dword:007e666 
+
+
+
+;Resource Manager for I/O
+
+:: https://github.com/ancel1x/Ancels-Performance-Batch/blob/main/AncelsPerformanceBatch.bat
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ResourcePolicyStore\ResourceSets\Policies\IO\NoCap]
+"IOBandwidth"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\I/O System]
+"IoEnableSessionZeroAccessCheck"=dword:00000001
+
+; flags policies
+
+:: https://github.com/ancel1x/Ancels-Performance-Batch/blob/main/AncelsPerformanceBatch.bat
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ResourcePolicyStore\ResourceSets\Policies\Flags\BackgroundDefault]
+"IsLowPriority"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ResourcePolicyStore\ResourceSets\Policies\Flags\Frozen]
+"IsLowPriority"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ResourcePolicyStore\ResourceSets\Policies\Flags\FrozenDNCS]
+"IsLowPriority"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ResourcePolicyStore\ResourceSets\Policies\Flags\FrozenDNK]
+"IsLowPriority"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ResourcePolicyStore\ResourceSets\Policies\Flags\FrozenPPLE]
+"IsLowPriority"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ResourcePolicyStore\ResourceSets\Policies\Flags\Paused]
+"IsLowPriority"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ResourcePolicyStore\ResourceSets\Policies\Flags\PausedDNK]
+"IsLowPriority"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ResourcePolicyStore\ResourceSets\Policies\Flags\Pausing]
+"IsLowPriority"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ResourcePolicyStore\ResourceSets\Policies\Flags\PrelaunchForeground]
+"IsLowPriority"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ResourcePolicyStore\ResourceSets\Policies\Flags\ThrottleGPUInterference]
+"IsLowPriority"=dword:00000000
